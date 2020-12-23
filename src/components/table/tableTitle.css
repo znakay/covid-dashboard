@@ -1,0 +1,22 @@
+.title-container {
+    background-color: #222;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+
+.title-container h3 {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+}
+
+.table-string {
+    font-size: 34px;
+    text-align: center;
+}
+
+@media (max-width: 1140px), (device-width: 1140px) {
+    .title-container h3 {font-size: 15px;}
+    .table-string {font-size: 28px;}
+}

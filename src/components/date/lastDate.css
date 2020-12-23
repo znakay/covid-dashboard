@@ -1,0 +1,19 @@
+.date-container {
+    width: 100%;
+    background-color: #222;
+    border: 1px solid #acacac;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+.date-container h4 {
+    font-size: 10px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .date-container .date-string {
+    font-size: 16px;
+    text-align: center;
+  }

@@ -1,0 +1,64 @@
+.footer {
+    padding: 5px 0;
+    background-color: #222;
+    color: #ffffff;
+}
+
+.footer-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.developers {
+    display: flex;
+    flex-direction: column;
+}
+
+.developer__link {
+    width: 100%;
+    text-align: center;
+    color: #bdbdbd;
+    text-decoration: none;
+    transition: all .3s ease-out;
+}
+
+.developer__link:hover {
+    color: #fff;
+    transform: scaleX(1.1);
+}
+
+.developer__link:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.createYear {
+    color: #bdbdbd;
+    font-size: 30px;
+}
+
+.rss-link {
+    background-image: url("https://rs.school/images/rs_school_js.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 48px;
+    width: 130px;
+    transition: all .3s ease-out;
+}
+
+.rss-link:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 1023px), (device-width: 1023px) {
+    .footer {padding: 6px;}
+    .developer__link {font-size: 12px;}
+    .developer__link:not(:last-child) {margin-bottom: 4px;}
+    .createYear {font-size: 20px;}
+    .rss-link {height: 36px; width: 96px;}
+}
